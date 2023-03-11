@@ -1,0 +1,44 @@
+body
+{
+    text-align: center;
+
+}
+:root
+{
+    --base:#ffcc60;
+    --spacing:10px;
+    --blur:10px;
+}
+.img-box
+{
+    height: 400px;
+    width: 99%;
+}
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+body
+{
+    background: #193549;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+.controls
+{
+    margin-bottom: 50px;
+}
+a
+{
+    color: var(--base);
+    text-decoration: none;
+}
+input
+{
+    width: 100px;
+}
